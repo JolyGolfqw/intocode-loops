@@ -18,7 +18,7 @@ function getPositiveNum(arr) {
   let positiveNum = 0;
 
   for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] > 0) {
+    if (numbers[i] >= 0) {
       positiveNum += numbers[i];
     }
   }
